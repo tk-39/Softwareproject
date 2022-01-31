@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //im just testing if this works.
+        //im just testing if this works - alphie
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
