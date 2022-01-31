@@ -10,7 +10,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.softwareproject.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
-
+hello there ib
 
 class MainActivity : AppCompatActivity() {
 
