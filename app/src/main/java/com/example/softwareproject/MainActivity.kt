@@ -11,6 +11,8 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.softwareproject.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
 
+//testing
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
