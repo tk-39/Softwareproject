@@ -11,6 +11,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.softwareproject.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
 hello there ibrahim
+//Sean's balding head
 
 class MainActivity : AppCompatActivity() {
 
