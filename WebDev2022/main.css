@@ -1,0 +1,473 @@
+
+	body {
+/*        BG Colour*/
+		background-color: #fff;
+/*        Text colour*/
+		color: #111111;
+        
+	}
+
+	body, input, select, textarea {
+		font-family: "Lato", sans-serif;
+		font-size: 15pt;
+		font-weight: 3000;
+		line-height: 1.5;
+        text-align: inherit;
+        
+	}
+
+	
+
+/*Paragraph margins*/
+	p {
+		margin: 0 0 2em 0;
+        
+	}
+
+
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 700;
+		line-height: 1.5;
+		margin: 0 0 1em 0;
+		text-transform: uppercase;
+	}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+	h1 {
+        color: white;
+		font-size: 2em;
+		margin: 2e 3em 2em 0;
+	}
+
+	h2 {
+        color: black;
+        text-align: center;
+		font-size: 2em;
+		margin: 1em 0 1em 0;
+	}
+
+	h3 {
+		font-size: 1.35em;
+        text-align: center;
+	}
+
+h4 {
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+}
+}
+    
+}
+
+/* Button */
+
+
+
+/*This is to create the buttons across the pages*/
+		.button: {
+            border: 2px solid black;
+            background-color: white;
+            color: black;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+		}
+
+		input[type="submit"].alt,
+		input[type="reset"].alt,
+		input[type="button"].alt,
+		button.alt,
+		.button.alt {
+            border: none;
+            padding: 14px 28px;
+            text-transform: uppercase;
+            font-family: "Lato", sans-serif;
+            font-size: 20px;
+            cursor: pointer;
+            background-color: darkblue;
+            border: transparent;
+			box-shadow: inset 0 0 0 2px transparent;
+			color: white!important;
+            text-decoration: none;
+		}
+
+/*this code was taken from w3schools and altered for personal needs*/
+/*It makes the button highlight green when you hover over it*/
+			input[type="submit"].alt:hover,
+			input[type="reset"].alt:hover,
+			input[type="button"].alt:hover,
+			button.alt:hover,
+			.button.alt:hover {
+				background: green;
+			}
+
+
+
+
+
+/* Icon */
+
+	.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-transform: none !important;
+                }
+
+
+/* Image */
+
+	.image {
+		border-radius: 0;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+		.image img {
+			border-radius: 0;
+			display: block;
+		}
+
+		.image.left, .image.right {
+			max-width: 40%;
+		}
+
+			.image.left img, .image.right img {
+				width: 100%;
+			}
+
+		.image.left {
+			display: left;
+			margin: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.image.database1 {
+             
+			display: block;
+			margin: 0 0 1em 25%;
+			width: 100%;
+		}
+
+		.image.home {
+			display: block;
+			margin: 0 0 1em 0;
+			width: 100%;
+		}
+
+			.image.home img {
+				width: 100%;
+			}
+
+
+
+
+/*Buttons*/
+
+	ul {
+		list-style: disc;
+		margin: 0 0 2em 0;
+		padding-left: 0em;
+	}
+
+		ul.actions {
+			cursor: default;
+			list-style: none;
+			padding-left: 0em;
+		}
+
+
+/*Home page */
+
+	section .inner {
+		max-width: 65em;
+		width: calc(100% - 6em);
+		margin: 0 auto;
+	}
+
+
+
+/* Header */
+
+	body {
+		position: relative;
+		padding-top: 5em;
+	}
+
+	#header {
+		background: #1c1c1c;
+		color: black;
+		cursor: default;
+		height: 5em;
+		left: 0;
+		line-height: 5em;
+		position: fixed;
+		text-align: right;
+		top: 0;
+		width: 100%;
+		z-index: 10001;
+	}
+
+
+
+/*I have copied and edited from W3Schools below*/
+
+
+		#header .inner {
+			max-width: 65em;
+			width: calc(100% - 6em);
+			margin: 0 auto;
+			position: relative;
+		}
+/*Taken from W3schools and edited for myself*/
+			@media screen and (max-width: 480px) {
+
+				#header .inner {
+					max-width: 90%;
+					width: 90%;
+				}
+
+			}
+
+		#header .logo {
+			font-family: "Lato", sans-serif;;
+			display: inline-block;
+			height: inherit;
+			left: 0;
+			line-height: inherit;
+			margin: 0;
+			padding: 1;
+			position: absolute;
+			color: none;
+			font-size: 2em;
+			text-transform: none;
+			font-weight: normal;
+			padding: 1px;
+		}
+
+/*makes the logo light up dark olive green*/
+			#header .logo:hover {
+				color: darkolivegreen;
+			}
+
+		#header a {
+			transition: color 0.2s ease-in-out;
+			display: inline-block;
+			padding: 0 2em;
+			color: #ffffff;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: .85em;
+		}
+
+
+
+
+
+/* Banner */
+/*w3schools was used to help, */
+	#banner {
+		background-color: #e5474b;
+		color: white;
+		padding: 15em 0 11em 0;
+		background-color: #0c0c0c;
+		background-image: url("images/Recylepal.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 15% left;
+		text-align: left;
+		position: relative;
+		z-index: 9999;
+        opacity: 0.95;
+        transition: opacity 5s ease 0s;
+        
+	}
+
+		}
+
+/* Padding */
+
+{
+		padding: 4em 0 2em 0;
+		padding: 6em 0 4em 0;
+        padding: 4em 0 2em 0;
+        padding: 2em 0 0.1em 0;
+			
+
+		}
+
+
+	#two {
+		padding:2em 0 2em 0;
+		background: #f2f3f3;
+		background: linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
+		background: linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
+		background: linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
+
+	}
+
+		#two .inner {
+			display: flex;
+            flex-direction: row;
+		}
+			#two .inner article {
+				width: 50%;
+			}
+				#two .inner article:first-child {
+					padding-right: 6em;
+				}
+
+				#two .inner article:last-child {
+					padding-left: 6em;
+				}
+
+ 
+
+
+
+		}
+
+	#three {
+		padding: 2em 0 4em 0;
+	}
+
+		#three .inner {
+			display:flex;
+            flex-direction: row;
+			justify-content: space-between;
+		}
+
+			#three .inner article {
+				width: 25%;
+				display: block;
+                text-align: center
+			}
+
+				#three .inner article p {
+/*                    Writing Colour*/
+					color: #717171;
+				}
+
+
+}
+
+/*This code was copied from codepen.io and altered to fit my website*/
+body{
+
+      background: white;
+      width:90%;
+      max-width: 800px;
+      margin:50px auto;
+      font-family: Calibri, Arial, sans-serif;
+      padding:20px;
+    }
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 25px solid black;
+  padding: 10px;
+}
+
+.centerbox {
+  margin: auto;
+  width: 50%;
+  border: 30px solid black;
+  padding: 10px;
+}
+
+label{
+  display:block;
+  margin:2em 0 .2em;
+}
+/* single-line text, checkbox, and button */
+input, select, textarea{
+    
+  display:block;
+  width:100%;
+  padding:.3em;
+  font-size:20px;
+  background-color:#fbfbfb;
+  border:solid 1px #CCC;
+  resize:vertical;
+}
+textarea{
+  min-height:180px;
+}
+select{
+  color:black;
+}
+option{
+  color:black;
+  background: white;
+}
+
+
+input[type=submit]{
+  background:grey;
+  margin:1em 0 0;
+  color:white;
+  border:none;
+  border-radius:8px;
+  transition:all .3s ease-out;
+}
+
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover{
+  background: lightblue;
+}
+
+/* hover and focus states */
+input[type=submit]:hover,
+input[type=submit]:focus{
+  background: lightgreen;
+  outline:none;
+}
+
+@media screen and (min-width:600px) {
+  /*  make the form 2 columns */
+  form:after{
+    content:'';
+    display:block;
+    clear:both;
+  }
+  .column{
+    width:50%;
+    padding:1em;
+    margin: auto;
+  }
+
+    
+/*about me*/
+    
+    
+    
+/*Footer*/
+footer {
+    padding: 20px;
+    color: #ffffff;
+    background-color: darkolivegreen;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%; 
+    border-top: black 5px solid;
+}
+
+
+		
