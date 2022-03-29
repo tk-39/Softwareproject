@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+
+<html Lang=en> 
+	<head>
+		<title>RECYCLEPAL</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="main.css"/>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">RECYCLEPAL</a>
+					<nav>
+						<a href="index.html">Home</a>
+						<a href="database.html">Database</a>
+						<a href="search.html">Search Items</a>
+                        <a href="signup.html">Sign Up</a>
+					</nav>
+				</div>
+                        </header>
+		<table>
+			<tr>
+				<th>Name</th>
+			</tr>
+			<% recyclinginfo.forEach(function(recyclinginfo) { %>
+			<tr>
+				<td><a href="/material/<%= recyclinginfo.name %>"><%= recyclinginfo.name %></a></td>
+			</tr>
+			<% }) %>
+		</table>
+	</body>
+</html>
