@@ -98,8 +98,7 @@ h4 {
             text-decoration: none;
 		}
 
-/*this code was taken from w3schools and altered for personal needs*/
-/*It makes the button highlight green when you hover over it*/
+/*Makes the button highlight green when you hover over it*/
 			input[type="submit"].alt:hover,
 			input[type="reset"].alt:hover,
 			input[type="button"].alt:hover,
@@ -221,7 +220,7 @@ h4 {
 
 
 
-/*I have copied and edited from W3Schools below*/
+
 
 
 		#header .inner {
@@ -230,7 +229,7 @@ h4 {
 			margin: 0 auto;
 			position: relative;
 		}
-/*Taken from W3schools and edited for myself*/
+
 			@media screen and (max-width: 480px) {
 
 				#header .inner {
@@ -277,7 +276,7 @@ h4 {
 
 
 /* Banner */
-/*w3schools was used to help, */
+
 	#banner {
 		background-color: #e5474b;
 		color: white;
@@ -363,7 +362,7 @@ h4 {
 
 }
 
-/*This code was copied from codepen.io and altered to fit my website*/
+
 body{
 
       background: white;
