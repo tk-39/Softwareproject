@@ -20,13 +20,19 @@
 					</nav>
 				</div>
             </header>
-				  <h1><%= recyclinginfo.name%></h1>
-				  <p><%= recyclinginfo.recommended%></p>
-				  <p><%= recyclinginfo.avoid%></p>
-				  <p><%= recyclinginfo.tips%></p>
-
-				  <footer>
-					<p>RECYCLEPAL</p>
-				</footer>
-		  </body>
+	<table>
+		<tr>
+			<th> Name </th>
+			<th> What to do </th>
+			<th> What not to do </th>
+		</tr>
+		<% recyclinginfo.forEach(function(recyclinginfo){ %>
+		<tr>
+			<td><%= recyclinginfo.name %></td>
+			<td><%= recyclinginfo.recommended %></td>
+			<td><%= recyclinginfo.avoid %></td>
+		</tr>
+		<% }) %>
+	</table>
+</body>
 </html>
