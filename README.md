@@ -1,2 +1,3 @@
 # Softwareproject
-Goldsmiths student project repo
+A user-focused recycling application. 
+
