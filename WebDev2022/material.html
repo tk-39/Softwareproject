@@ -4,7 +4,7 @@
 	<head>
 		<title>RECYCLEPAL</title>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="main.css"/>
+		<link rel="stylesheet" href="/main.css"/>
 	</head>
 	<body>
 
@@ -21,8 +21,11 @@
 				</div>
             </header>
 				  <h1><%= recyclinginfo.name%></h1>
+				  <p style="font-weight: bold;">What to do:</p>
 				  <p><%= recyclinginfo.recommended%></p>
+				  <p style="font-weight: bold;">What to avoid:</p>
 				  <p><%= recyclinginfo.avoid%></p>
+				  <p style="font-weight: bold;">Tips:</p>
 				  <p><%= recyclinginfo.tips%></p>
 
 				  <footer>
